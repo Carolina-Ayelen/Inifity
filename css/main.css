@@ -1,0 +1,289 @@
+@font-face {
+    font-family: aktiv-light;
+    src: url("../fonts/aktiv/AktivGroteskStdLt.ttf");
+}
+
+@font-face {
+    font-family: aktiv-regular;
+    src: url("../fonts/aktiv/AktivGroteskStdReg.ttf");
+}
+
+@font-face {
+    font-family: aktiv-bold;
+    src: url("../fonts/aktiv/AktivGroteskStdBd.ttf");
+}
+
+@font-face {
+    font-family: playfair-semibold;
+    src: url("../fonts/playfair/PlayfairDisplay-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: playfair-bold;
+    src: url("../fonts/playfair/PlayfairDisplay-Bold.ttf");
+}
+
+p,
+.span-hero {
+    font-family: 'aktiv-light';
+    color: #696a6d
+}
+
+h2,
+h1 {
+    font-family: 'playfair-semibold';
+    color: #ffffff;
+    font-size: 3rem;
+}
+
+h3 {
+    font-family: 'aktiv-regular';
+    color: #666666;
+    font-size: 3rem;
+}
+
+.h3-ubicacion {
+    font-family: 'playfair-bold';
+    color: #ffffff;
+}
+
+.h3-proyecto {
+    font-family: 'playfair-bold';
+    color: #bdd2db;
+    margin-bottom: 3rem;
+}
+
+.h3-preguntas {
+    font-family: 'playfair-bold';
+    color: #696a6d;
+    margin-bottom: 3rem;
+}
+
+h4 {
+    color: #58595b;
+    font-family: playfair-bold;
+}
+
+.span-hero {
+    color: #ffffff !important;
+}
+
+header {
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    background-image: linear-gradient(#00000041, #00000041), url('../img/fondo-hero.jpg');
+}
+
+.logo {
+    max-width: 120px;
+}
+
+.div-logo {
+    padding: 0% 15% 0% 15%;
+    text-align: center;
+}
+
+
+/*nav redes*/
+
+.nav-redes {
+    background-color: transparent !important;
+}
+
+.nav-redes .nav-link {
+    margin: 0;
+}
+
+.nav-redes .nav-left {
+    color: #fc2772;
+    text-decoration: none;
+    margin: -20px;
+}
+
+.bi {
+    font-size: 1.5rem;
+}
+
+.bi-arrow-down {
+    font-size: 2rem;
+}
+
+.li-redes {
+    border: solid 1px #696a6d;
+    border-radius: 2rem;
+    margin-right: 1rem;
+    background-color: #f7f7f754;
+}
+
+.secciones {
+    margin: 4rem 3rem;
+}
+
+.div-ubicacion {
+    background-color: #bdd2db;
+    padding: 5rem 3.5rem;
+}
+
+td {
+    color: #696a6c !important;
+    font-family: aktiv-light;
+}
+
+td strong {
+    font-family: altiv-bold;
+}
+
+.mapa {
+    background-image: url("../img/mapa.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div-preguntas {
+    border-radius: 5rem;
+    background-color: white;
+}
+
+.espacio {
+    width: auto;
+    height: 2rem;
+}
+
+.div-form {
+    background-color: #696a6d;
+    padding: 6rem 3rem 4rem 3rem;
+}
+
+.btn-enviar {
+    padding: 0.7rem 4rem;
+    font-size: 1.50rem;
+    border-radius: 2rem;
+    font-family: 'aktiv-light';
+}
+
+.h2-mobile {
+    margin: 5rem 0rem 4rem 0rem;
+}
+
+.span-hero-mobile {
+    color: #ffffff !important;
+    margin-bottom: 8rem;
+}
+
+.numeros-mobile {
+    text-align: center;
+}
+
+.img-form-mobile {
+    padding: 0;
+    margin-bottom: 4rem;
+}
+
+.flecha {
+    border: solid;
+    border-radius: 2rem;
+    padding: 0.7rem;
+    margin-right: 5rem;
+}
+
+@media (max-width: 576px) {
+    .navbar-brand {
+        display: none;
+    }
+    .h2-desktop {
+        display: none;
+    }
+    .nav-link {
+        padding: 0.5rem 0.9rem;
+    }
+    .li-redes {
+        background-color: #ffffff3b;
+    }
+    .btn-mobile {
+        background-color: #bfbebe7a;
+    }
+    .nav-redes {
+        margin-top: 4rem
+    }
+    .numeros-desk {
+        display: none;
+    }
+    .table {
+        display: none;
+    }
+    .mapa-desk {
+        display: none;
+    }
+    .secciones {
+        margin: 4rem 1rem;
+    }
+    .h3-proyecto {
+        text-align: center;
+    }
+    .div-form {
+        padding: 0rem 0rem 4rem 0rem;
+    }
+    .img-form-desk {
+        display: none;
+    }
+    .imagenes-desk {
+        display: none;
+    }
+    .img-desk {
+        display: none;
+    }
+    .btn-lg {
+        padding: 0.4rem 2rem;
+    }
+    .div-ubicacion {
+        padding: 5rem 0rem;
+    }
+}
+
+@media (min-width: 577px) {
+    .logo-mobile {
+        display: none;
+    }
+    .span-hero-mobile {
+        display: none;
+    }
+    .h2-mobile {
+        display: none;
+    }
+    .numeros-mobile {
+        display: none;
+    }
+    .mapa-mobile {
+        display: none;
+    }
+    .br-mobile {
+        display: none;
+    }
+    .img-form-mobile {
+        display: none;
+    }
+    .imagenes-mobile {
+        display: none;
+    }
+    .img-mobile {
+        display: none;
+    }
+    header {
+        background-attachment: fixed;
+    }
+}
+
+.mensaje {
+    padding-top: 20%;
+    text-align: center;
+}
+
+
+/*iconos flotantes*/
+
+.redes-flotantes {
+    position: fixed;
+    right: 8px;
+    z-index: 20;
+}
